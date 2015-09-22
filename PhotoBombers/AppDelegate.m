@@ -15,7 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     SimpleAuth.configuration[@"instagram"] = @{
-        @"client_id" : @"4060f54995b34cac9a5b93cbf8770e97",
+        @"client_id" : @"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",// ADD YOUR CLIENT APP ID HERE
         SimpleAuthRedirectURIKey : @"photobombers://auth/instagram"
     };
     
